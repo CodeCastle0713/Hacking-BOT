@@ -1,0 +1,220 @@
+{
+    "workflow": [
+        {
+            "comment":"Card Number",
+            "action":"input",
+            "description":"1234567890123456",
+            "name":"card_number",
+            "parameters":{
+                "x": "?",
+                "y": "?"
+            }
+        },
+        {
+            "comment":"Expire Data",
+            "action":"input",
+            "description":"072026",
+            "name":"expiry",
+            "parameters": {
+                "x": "?",
+                "y": "?"
+            }
+        },
+        {
+            "comment":"CVV",
+            "action":"input",
+            "description":"1234",
+            "name":"cvv",
+            "parameters": {
+                "x": "?",
+                "y": "?"
+            }
+        },
+        {
+            "comment":"Name on Card",
+            "action":"input",
+            "description":"Master Card",
+            "name":"name_on_card",
+            "parameters": {
+                "x": "?",
+                "y": "?"
+            }
+        },
+        {
+            "comment":"Check Box-Save Card Security",
+            "action":"click",
+            "description":"Save Card Security",
+            "parameters": {
+                "x": "?",
+                "y": "?"
+            }
+        },
+        {
+            "comment":"Button-Next to Billing Info",
+            "action":"click",
+            "description":"Next to Billing Info",
+            "parameters": {
+                "x": "?",
+                "y": "?"
+            }
+        },
+        {
+            "comment":"Address",
+            "action":"input",
+            "description":"Linkin Park",
+            "name":"address",
+            "parameters": {
+                "x": "?",
+                "y": "?"
+            }
+        },
+        {
+            "comment":"Extra-Click anywhere except fields",
+            "action":"click",
+            "description":"Next to Billing Info",
+            "parameters": {
+                "x": "?",
+                "y": "?"
+            }
+        },
+        {
+            "comment": "Country Dropdown",
+            "action": "select",
+            "description": "Select Country",
+            "parameters": {
+                "dropdown" : "./imgs/country_dropdown.png",
+                "option" : "./imgs/country_option.png"
+            }
+        },
+        {
+            "comment": "State Dropdown",
+            "action": "select",
+            "description": "Select State",
+            "parameters": {
+                "dropdown" : "./imgs/state_dropdown.png",
+                "option" : "./imgs/state_option.png"
+            }
+        },
+        {
+            "comment":"City",
+            "action":"input",
+            "description":"Los Angels",
+            "name":"city",
+            "parameters": {
+                "x": "?",
+                "y": "?"
+            }
+        },
+        {
+            "comment":"Postal Code",
+            "action":"input",
+            "description":"91423",
+            "name":"postal_code",
+            "parameters": {
+                "x": "?",
+                "y": "?"
+            }
+        },
+        {
+            "comment":"Button-Next to Additional Info",
+            "action":"click",
+            "description":"Next to Additional Info",
+            "parameters": {
+                "x": "?",
+                "y": "?"
+            }
+        },
+        {
+            "comment":"Name",
+            "action":"input",
+            "description":"Test LyfPay",
+            "name":"name",
+            "parameters": {
+                "x": "?",
+                "y": "?"
+            }
+        },
+        {
+            "comment":"Email",
+            "action":"input",
+            "description":"test@lyfpay.io",
+            "name":"email",
+            "parameters": {
+                "x": "?",
+                "y": "?"
+            }
+        },
+        {
+            "comment":"Phone Number",
+            "action":"input",
+            "description":"2015550123",
+            "name":"phone_number",
+            "parameters": {
+                "x": "?",
+                "y": "?"
+            }
+        },
+        {
+            "comment":"Description",
+            "action":"input",
+            "description":"Test Payment",
+            "name":"description",
+            "parameters": {
+                "x": "?",
+                "y": "?"
+            }
+        },
+        {
+            "comment":"Button-Pay Now",
+            "action":"click",
+            "description":"Pay Now",
+            "parameters": {
+                "x": "?",
+                "y": "?"
+            }
+        },
+        {
+            "comment":"Email Confirm",
+            "action":"input",
+            "description":"test@lfypay.io",
+            "name":"email_confirm",
+            "parameters": {
+                "x": "?",
+                "y": "?"
+            }
+        },
+        {
+            "comment":"Button-Get OTP",
+            "action":"click",
+            "description":"Get OTP",
+            "parameters": {
+                "x": "?",
+                "y": "?"
+            }
+        },
+        {
+            "comment" : "Waiting for OTP response",
+            "action": "delay",
+            "time":10
+        },
+        {
+            "comment":"OTP",
+            "action":"input",
+            "description":"123456",
+            "name":"otp",
+            "parameters": {
+                "x": "?",
+                "y": "?"
+            }
+        },
+        {
+            "comment":"Button-Confirm Code",
+            "action":"click",
+            "description":"Confirm Code",
+            "parameters": {
+                "x": "?",
+                "y": "?"
+            }
+        }
+    ]
+}  
